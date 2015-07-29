@@ -1,6 +1,8 @@
 USE codeup_test_db;
+TRUNCATE albums;
 INSERT INTO albums (artist, record_name, release_date, sales_in_millions, genre)
-VALUES ('Michael Jackson', 'Thriller', 1982, 42.4, 'Pop, Rock, R&B'),
+VALUES 
+	('Michael Jackson', 'Thriller', 1982, 42.4, 'Pop, Rock, R&B'),
 
 	('Pink Floyd', 'The Dark Side of the Moon', 1973, 22.7, 'Progressive Rock'),
 
@@ -14,7 +16,7 @@ VALUES ('Michael Jackson', 'Thriller', 1982, 42.4, 'Pop, Rock, R&B'),
 
 	('Bee Gees', 'Saturday Night Fever', 1977, 19, 'Disco'),
 
-	('Fleetwood Mac', 'Romours', 1977, 27.9, 'Soft Rock'),
+	('Fleetwood Mac', 'Rumours', 1977, 27.9, 'Soft Rock'),
 
 	('Shania Twain', 'Come on Over', 1997, 29.6, 'Country, Pop'),
 

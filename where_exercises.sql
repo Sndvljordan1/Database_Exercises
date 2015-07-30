@@ -12,7 +12,7 @@ LIKE '%-12-25';
 
 SELECT * FROM employees 
 WHERE last_name 
-LIKE 'E%' OR last_name LIKE '%e';
+LIKE 'E%' AND last_name LIKE '%e';
 
 SELECT * FROM employees 
 WHERE hire_date  
